@@ -1,0 +1,90 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/metrics/
+/coverage
+run_assets.sh
+
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS/XCode related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/build/
+/metrics/
+
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+ios/build/XCBuildData/6185322885bca58ff1ba5944b2ec5ef4-manifest.xcbuild
+ios/build/XCBuildData/731d8297fb0d3110c0c99e4a4facb017-desc.xcbuild
+ios/build/XCBuildData/731d8297fb0d3110c0c99e4a4facb017-manifest.xcbuild
+ios/build/XCBuildData/bb5b15172f6f9e3a07ab257e6fc1e81b-desc.xcbuild
+ios/build/XCBuildData/bb5b15172f6f9e3a07ab257e6fc1e81b-manifest.xcbuild
+ios/build/XCBuildData/build.db
+ios/build/XCBuildData/BuildDescriptionCacheIndex-2b1a77d3ff170c18984c021e3fae4b47
+ios/build/XCBuildData/c69ec29c34c33898c4bd0485375c4009-desc.xcbuild
+ios/build/XCBuildData/c69ec29c34c33898c4bd0485375c4009-manifest.xcbuild
