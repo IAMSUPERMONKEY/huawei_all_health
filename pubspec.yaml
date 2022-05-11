@@ -1,7 +1,7 @@
 name: huawei_all_health
 description: provider Health Kit & HiHealthKit impl.
-homepage: https://github.com/IAMSUPERMONKEY/flutter-hms-health
-repository: https://github.com/IAMSUPERMONKEY/flutter-hms-health
+homepage: https://github.com/IAMSUPERMONKEY/huawei_all_health
+repository: https://github.com/IAMSUPERMONKEY/huawei_all_health
 
 version: 0.0.1
 
