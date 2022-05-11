@@ -17,26 +17,26 @@
 part of huawei_health;
 
 const MethodChannel _healthAccountMethodChannel = MethodChannel(
-  'com.huawei.hms.flutter.health/health_auth',
+  'com.supermonkey.hms.flutter.health/health_auth',
 );
 const MethodChannel _healthActivityRecordMethodChannel = MethodChannel(
-  'com.huawei.hms.flutter.health/activity_records',
+  'com.supermonkey.hms.flutter.health/activity_records',
 );
 const MethodChannel _healthDataControllerMethodChannel = MethodChannel(
-  'com.huawei.hms.flutter.health/data_controller',
+  'com.supermonkey.hms.flutter.health/data_controller',
 );
 const MethodChannel _healthSettingControllerMethodChannel = MethodChannel(
-  'com.huawei.hms.flutter.health/setting_controller',
+  'com.supermonkey.hms.flutter.health/setting_controller',
 );
 const MethodChannel _healthAutoRecorderMethodChannel = MethodChannel(
-  'com.huawei.hms.flutter.health/auto_recorder',
+  'com.supermonkey.hms.flutter.health/auto_recorder',
 );
 const MethodChannel _appInfoMethodChannel = MethodChannel(
-  'com.huawei.hms.flutter.health/app_info',
+  'com.supermonkey.hms.flutter.health/app_info',
 );
 const MethodChannel _healthRecordControllerMethodChannel = MethodChannel(
-  'com.huawei.hms.flutter.health/health_record_controller',
+  'com.supermonkey.hms.flutter.health/health_record_controller',
 );
 const EventChannel _healthAutoRecorderEventChannel = EventChannel(
-  'com.huawei.hms.flutter.health/auto_recorder_event',
+  'com.supermonkey.hms.flutter.health/auto_recorder_event',
 );

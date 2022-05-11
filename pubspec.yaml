@@ -1,9 +1,9 @@
-name: huawei_health
-description: Health Kit provides a data platform with fitness and health open capabilities, so that developers can build related apps and services based on a multitude of data types.
-homepage: https://www.huawei.com
-repository: https://github.com/HMS-Core/hms-flutter-plugin/tree/master/flutter-hms-health
+name: huawei_all_health
+description: provider Health Kit & HiHealthKit impl.
+homepage: https://github.com/IAMSUPERMONKEY/flutter-hms-health
+repository: https://github.com/IAMSUPERMONKEY/flutter-hms-health
 
-version: 6.3.0+301
+version: 0.0.1
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -22,5 +22,5 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.huawei.hms.flutter.health
+        package: com.supermonkey.hms.flutter.health
         pluginClass: HealthPlugin

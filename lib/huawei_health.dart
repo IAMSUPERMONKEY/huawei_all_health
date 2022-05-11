@@ -8,6 +8,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+/// hiHealth part
+part 'hihealth/constants/hi_channels.dart';
+part 'hihealth/constants/hi_health_constants.dart';
+part 'hihealth/constants/hi_health_extend_scope.dart';
+part 'hihealth/health_data_store.dart';
 part 'src/constants/channels.dart';
 part 'src/constants/hihealth_activities.dart';
 part 'src/constants/hihealth_status_codes.dart';

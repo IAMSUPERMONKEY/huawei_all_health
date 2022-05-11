@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.huawei.hms.flutter.health">
+    package="com.supermonkey.hms.flutter.hwhealth">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application>
-        <service android:name="com.huawei.hms.flutter.health.modules.autorecorder.service.AutoRecorderBackgroundService">
+        <service android:name="com.supermonkey.hms.flutter.health.modules.autorecorder.service.AutoRecorderBackgroundService">
             <intent-filter android:priority="1000">
                 <action android:name="HealthKitService" />
             </intent-filter>

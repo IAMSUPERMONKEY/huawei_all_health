@@ -1,5 +1,10 @@
 # Huawei Health Kit Flutter Plugin
 
+## 说明
+
+原来的仓库只有healtKit，而没有 hihealthKit，不支持拓展能力的接口
+android sdk 版本基于：6.3.0+301
+
 ---
 
 ## Contents
